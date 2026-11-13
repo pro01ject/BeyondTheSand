@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Leadership Tree — Beyond the Sands</title>
+  <meta name="description" content="The tree of the UAE federation — seven founding rulers, the union of December 1971, and the seven emirates of a united nation.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%236E4B2A'/%3E%3Cpath d='M6 22 Q16 8 26 22' stroke='%23F6EFE3' stroke-width='2.5' fill='none'/%3E%3C/svg%3E">
+  <link rel="preload" href="assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav is-scrolled" id="nav">
+    <a class="nav__brand" href="index.html" aria-label="Beyond the Sands — home">
+      <svg class="nav__mark" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M4 24 Q16 8 28 24" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+        <circle cx="16" cy="13" r="2.2" fill="currentColor"/>
+      </svg>
+      <span>Beyond the Sands</span>
+    </a>
+    <nav class="nav__links" id="navLinks" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="roots.html">Roots</a>
+      <a href="bonds.html">Bonds</a>
+      <a href="branches.html">Branches</a>
+      <a href="future.html">Future</a>
+      <a href="leadership.html" aria-current="page">Leadership</a>
+    </nav>
+    <a class="nav__cta" href="future.html">Year of Family 2026</a>
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="main">
+    <!-- ============ PAGE HEAD ============ -->
+    <section class="page-head page-head--dark" aria-labelledby="page-title">
+      <div class="page-head__inner">
+        <p class="section__kicker reveal">A Nation in a Single Image</p>
+        <h1 class="page-head__title reveal" id="page-title">The Leadership Tree</h1>
+        <p class="page-head__lede reveal">Seven founding rulers at the roots. One union at the
+        trunk. Seven branches reaching into the future.</p>
+      </div>
+    </section>
+
+    <!-- ============ THE ROOTS — FOUNDING VISION ============ -->
+    <section class="section lead__founders" aria-labelledby="roots-title">
+      <div class="section__inner">
+        <header class="section__head reveal">
+          <span class="section__num">The Roots</span>
+          <p class="section__kicker">The Founding Vision</p>
+          <h2 class="section__title" id="roots-title">The Seven Founding Rulers</h2>
+          <div class="section__rule" aria-hidden="true"></div>
+          <p class="section__lede">The rulers of the seven Trucial States who came together to
+          form the United Arab Emirates. Sheikh Zayed and Sheikh Rashid led the way — the other
+          five stood beside them. Tap a portrait to read more.</p>
+        </header>
+
+        <div class="founders-hero">
+          <button class="founder founder--feature reveal" type="button" aria-expanded="false">
+            <span class="founder__frame">
+              <img src="assets/images/founders/zayed.jpg"
+                   alt="Official portrait of Sheikh Zayed bin Sultan Al Nahyan, Founding President of the UAE"
+                   loading="eager" decoding="async">
+            </span>
+            <span class="founder__name">Sheikh Zayed bin Sultan Al Nahyan</span>
+            <span class="founder__title">Ruler of Abu Dhabi · First President of the UAE</span>
+            <span class="founder__years">1918 – 2004</span>
+            <span class="founder__bio" hidden>
+              Ruler of Abu Dhabi from 1966 and the driving force behind the federation — the
+              Rulers elected him the UAE's first President when the Union was founded on
+              2 December 1971. He served until his passing in 2004 and is known as the
+              Father of the Nation.
+            </span>
+            <span class="founder__hint">Tap for more</span>
+          </button>
+
+          <button class="founder founder--feature reveal" type="button" aria-expanded="false" data-delay="1">
+            <span class="founder__frame">
+              <img src="assets/images/founders/rashid-dubai.jpg"
+                   alt="Official portrait of Sheikh Rashid bin Saeed Al Maktoum, founding Vice-President of the UAE"
+                   loading="lazy" decoding="async">
+            </span>
+            <span class="founder__name">Sheikh Rashid bin Saeed Al Maktoum</span>
+            <span class="founder__title">Ruler of Dubai · Vice-President of the UAE</span>
+            <span class="founder__years">1912 – 1990</span>
+            <span class="founder__bio" hidden>
+              Ruler of Dubai from 1958. He worked with Sheikh Zayed to issue the 1968 Union
+              Accord between Abu Dhabi and Dubai, served as the UAE's first Vice-President,
+              and became Prime Minister in 1979.
+            </span>
+            <span class="founder__hint">Tap for more</span>
+          </button>
+        </div>
+
+        <div class="founders-minor">
+          <button class="founder founder--minor reveal" type="button" aria-expanded="false">
+            <span class="founder__frame founder__frame--minor">
+              <img src="assets/images/founders/khalid-sharjah.jpg"
+                   alt="Official portrait of Sheikh Khalid bin Mohammed Al Qasimi, founding Ruler of Sharjah"
+                   loading="lazy" decoding="async">
+            </span>
+            <span class="founder__name">Sheikh Khalid bin Mohammed Al Qasimi</span>
+            <span class="founder__title">Ruler of Sharjah · 1965–1972</span>
+            <span class="founder__years">1931 – 1972</span>
+            <span class="founder__bio" hidden>
+              Ruler of Sharjah from 24 June 1965 until 1972 and an early participant in the
+              first talks to create the federation.
+            </span>
+            <span class="founder__hint">Tap for more</span>
+          </button>
+
+          <button class="founder founder--minor reveal" type="button" aria-expanded="false" data-delay="1">
+            <span class="founder__frame founder__frame--minor">
+              <img src="assets/images/founders/rashid-ajman.jpg"
+                   alt="Official portrait of Sheikh Rashid bin Humaid Al Nuaimi, founding Ruler of Ajman"
+                   loading="lazy" decoding="async">
+            </span>
+            <span class="founder__name">Sheikh Rashid bin Humaid Al Nuaimi</span>
+            <span class="founder__title">Ruler of Ajman · from 1928</span>
+            <span class="founder__years">1902 – 1981</span>
+            <span class="founder__bio" hidden>
+              Ruler of Ajman from 1928 — he led the emirate for 54 years, issuing its own
+              passports, formalising its education system and establishing its police
+              department.
+            </span>
+            <span class="founder__hint">Tap for more</span>
+          </button>
+
+          <button class="founder founder--minor reveal" type="button" aria-expanded="false" data-delay="2">
+            <span class="founder__frame founder__frame--minor">
+              <img src="assets/images/founders/ahmed-uaq.jpg"
+                   alt="Official portrait of Sheikh Ahmed Bin Rashid Al Mualla, founding Ruler of Umm Al Quwain"
+                   loading="lazy" decoding="async">
+            </span>
+            <span class="founder__name">Sheikh Ahmed Bin Rashid Al Mualla</span>
+            <span class="founder__title">Ruler of Umm Al Quwain · from 1929</span>
+            <span class="founder__years">1911 – 1981</span>
+            <span class="founder__bio" hidden>
+              Ruler of Umm Al Quwain from 1929 until 1981 — he established the emirate's first
+              school and hospital and paved its first roads.
+            </span>
+            <span class="founder__hint">Tap for more</span>
+          </button>
+
+          <button class="founder founder--minor reveal" type="button" aria-expanded="false" data-delay="3">
+            <span class="founder__frame founder__frame--minor">
+              <img src="assets/images/founders/saqr-rak.jpg"
+                   alt="Official portrait of Sheikh Saqr bin Mohammed Al Qasimi, founding Ruler of Ras Al Khaimah"
+                   loading="lazy" decoding="async">
+            </span>
+            <span class="founder__name">Sheikh Saqr bin Mohammed Al Qasimi</span>
+            <span class="founder__title">Ruler of Ras Al Khaimah · from 1948</span>
+            <span class="founder__years">1918 – 2010</span>
+            <span class="founder__bio" hidden>
+              Ruler of Ras Al Khaimah from 17 July 1948. His concerns about the Tunb islands
+              were addressed before Ras Al Khaimah acceded to the Union in February 1972.
+            </span>
+            <span class="founder__hint">Tap for more</span>
+          </button>
+
+          <button class="founder founder--minor reveal" type="button" aria-expanded="false" data-delay="4">
+            <span class="founder__frame founder__frame--minor">
+              <img src="assets/images/founders/mohammed-fujairah.jpg"
+                   alt="Official portrait of Sheikh Mohammed bin Hamad Al Sharqi, founding Ruler of Fujairah"
+                   loading="lazy" decoding="async">
+            </span>
+            <span class="founder__name">Sheikh Mohammed bin Hamad Al Sharqi</span>
+            <span class="founder__title">Ruler of Fujairah · from about 1937</span>
+            <span class="founder__years">1908 – 1974</span>
+            <span class="founder__bio" hidden>
+              Ruler of Fujairah from about 1937 until 1974 — he formalised the Sharia court
+              system, began road construction and opened the emirate's first library.
+            </span>
+            <span class="founder__hint">Tap for more</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ THE TRUNK — THE UNION ============ -->
+    <section class="section lead__trunk" aria-labelledby="trunk-title">
+      <div class="section__inner">
+        <header class="section__head reveal">
+          <span class="section__num">The Trunk</span>
+          <p class="section__kicker">The Union</p>
+          <h2 class="section__title" id="trunk-title">How the Federation Was Formed</h2>
+          <div class="section__rule" aria-hidden="true"></div>
+        </header>
+
+        <div class="milestones">
+          <div class="milestone reveal">
+            <span class="milestone__date">18 July 1971</span>
+            <span class="milestone__dot" aria-hidden="true"></span>
+            <p>The rulers of six emirates — all except Ras Al Khaimah — resolved to form a union.</p>
+          </div>
+          <div class="milestone reveal" data-delay="1">
+            <span class="milestone__date">2 December 1971</span>
+            <span class="milestone__dot" aria-hidden="true"></span>
+            <p>The United Arab Emirates was founded; Sheikh Zayed was elected its first President.</p>
+          </div>
+          <div class="milestone reveal" data-delay="2">
+            <span class="milestone__date">10 February 1972</span>
+            <span class="milestone__dot" aria-hidden="true"></span>
+            <p>Ras Al Khaimah acceded — all seven emirates united in one federation.</p>
+          </div>
+        </div>
+
+        <p class="trunk__note reveal">From these roots and this trunk grew seven branches —
+        one for every emirate, each carrying its own ruler, its own story, and the same shared
+        future.</p>
+      </div>
+    </section>
+
+    <!-- ============ THE SEVEN BRANCHES ============ -->
+    <section class="section lead__emirates" aria-labelledby="emirates-title">
+      <div class="section__inner">
+        <header class="section__head reveal">
+          <span class="section__num">The Seven Branches</span>
+          <p class="section__kicker">Leadership Today</p>
+          <h2 class="section__title" id="emirates-title">The Rulers of the Emirates</h2>
+          <div class="section__rule" aria-hidden="true"></div>
+          <p class="section__lede reveal">Each emirate is led by its Ruler, who also sits on the
+          Federal Supreme Council — the union's highest constitutional authority. Tap a card to
+          read more.</p>
+        </header>
+
+        <div class="emirates">
+          <!-- Abu Dhabi -->
+          <article class="emirate reveal">
+            <button class="emirate__toggle" type="button" aria-expanded="false">
+              <span class="emirate__media"><img src="assets/images/rulers/Abu-Dhabi-Ruler.jpg" alt="Official portrait of Sheikh Mohammed bin Zayed Al Nahyan" loading="lazy"></span>
+              <span class="emirate__body">
+                <span class="emirate__place">Abu Dhabi</span>
+                <span class="emirate__name">Sheikh Mohammed bin Zayed Al Nahyan</span>
+                <span class="emirate__role">President of the UAE · Ruler of Abu Dhabi</span>
+              </span>
+            </button>
+            <div class="emirate__detail" hidden>
+              <p>Elected President of the UAE on 14 May 2022 and Ruler of Abu Dhabi. Born in
+              Al Ain in 1961, he was Crown Prince of Abu Dhabi from 2004 to 2022 and Chairman
+              of the Abu Dhabi Executive Council from 2004.</p>
+              <span class="emirate__more">Tap to close</span>
+            </div>
+          </article>
+
+          <!-- Dubai -->
+          <article class="emirate reveal" data-delay="1">
+            <button class="emirate__toggle" type="button" aria-expanded="false">
+              <span class="emirate__media"><img src="assets/images/rulers/Dubai-Ruler.jpg" alt="Official portrait of Sheikh Mohammed bin Rashid Al Maktoum" loading="lazy"></span>
+              <span class="emirate__body">
+                <span class="emirate__place">Dubai</span>
+                <span class="emirate__name">Sheikh Mohammed bin Rashid Al Maktoum</span>
+                <span class="emirate__role">Vice-President and Prime Minister · Ruler of Dubai</span>
+              </span>
+            </button>
+            <div class="emirate__detail" hidden>
+              <p>Ruler of Dubai since 4 January 2006, elected Vice-President on 5 January 2006
+              and nominated Prime Minister in February 2006. Born in 1949, he began government
+              service as Head of Dubai Police and Public Security.</p>
+              <span class="emirate__more">Tap to close</span>
+            </div>
+          </article>
+
+          <!-- Sharjah -->
+          <article class="emirate reveal" data-delay="2">
+            <button class="emirate__toggle" type="button" aria-expanded="false">
+              <span class="emirate__media"><img src="assets/images/rulers/Sharjah-Ruler.jpg" alt="Official portrait of Sheikh Sultan bin Mohammed Al Qasimi" loading="lazy"></span>
+              <span class="emirate__body">
+                <span class="emirate__place">Sharjah</span>
+                <span class="emirate__name">Sheikh Sultan bin Mohammed Al Qasimi</span>
+                <span class="emirate__role">Member of the Supreme Council · Ruler of Sharjah</span>
+              </span>
+            </button>
+            <div class="emirate__detail" hidden>
+              <p>Ruler of Sharjah since 25 January 1972 — the longest-serving of the union's
+              rulers. Born in Sharjah in 1939, he is also a poet and historian.</p>
+              <span class="emirate__more">Tap to close</span>
+            </div>
+          </article>
+
+          <!-- Ajman -->
+          <article class="emirate reveal">
+            <button class="emirate__toggle" type="button" aria-expanded="false">
+              <span class="emirate__media"><img src="assets/images/rulers/Ajman-Ruler.jpg" alt="Official portrait of Sheikh Humaid bin Rashid Al Nuaimi" loading="lazy"></span>
+              <span class="emirate__body">
+                <span class="emirate__place">Ajman</span>
+                <span class="emirate__name">Sheikh Humaid bin Rashid Al Nuaimi</span>
+                <span class="emirate__role">Member of the Supreme Council · Ruler of Ajman</span>
+              </span>
+            </button>
+            <div class="emirate__detail" hidden>
+              <p>Succeeded his father — a Founding Father of the Union — as Ruler of Ajman in
+              1981. Born in 1931, he was named Crown Prince in 1960 and elected Vice-President
+              of the Trucial States Council in 1966.</p>
+              <span class="emirate__more">Tap to close</span>
+            </div>
+          </article>
+
+          <!-- Umm Al Quwain -->
+          <article class="emirate reveal" data-delay="1">
+            <button class="emirate__toggle" type="button" aria-expanded="false">
+              <span class="emirate__media"><img src="assets/images/rulers/Umm-Al-Quwain-Ruler.jpg" alt="Official portrait of Sheikh Saud bin Rashid Al Mualla" loading="lazy"></span>
+              <span class="emirate__body">
+                <span class="emirate__place">Umm Al Quwain</span>
+                <span class="emirate__name">Sheikh Saud bin Rashid Al Mualla</span>
+                <span class="emirate__role">Member of the Supreme Council · Ruler of Umm Al Quwain</span>
+              </span>
+            </button>
+            <div class="emirate__detail" hidden>
+              <p>Became Ruler of Umm Al Quwain on 2 January 2009, succeeding his father. Born
+              in 1952, he was named Crown Prince of the emirate in 1982.</p>
+              <span class="emirate__more">Tap to close</span>
+            </div>
+          </article>
+
+          <!-- Ras Al Khaimah -->
+          <article class="emirate reveal" data-delay="2">
+            <button class="emirate__toggle" type="button" aria-expanded="false">
+              <span class="emirate__media"><img src="assets/images/rulers/Ras-Al-Khaima-Ruler.jpg" alt="Official portrait of Sheikh Saud bin Saqr Al Qasimi" loading="lazy"></span>
+              <span class="emirate__body">
+                <span class="emirate__place">Ras Al Khaimah</span>
+                <span class="emirate__name">Sheikh Saud bin Saqr Al Qasimi</span>
+                <span class="emirate__role">Member of the Supreme Council · Ruler of Ras Al Khaimah</span>
+              </span>
+            </button>
+            <div class="emirate__detail" hidden>
+              <p>Succeeded his father as Ruler of Ras Al Khaimah on 27 October 2010. Born in
+              1956, he was named Crown Prince and Deputy Ruler in 2003.</p>
+              <span class="emirate__more">Tap to close</span>
+            </div>
+          </article>
+
+          <!-- Fujairah -->
+          <article class="emirate reveal" data-delay="3">
+            <button class="emirate__toggle" type="button" aria-expanded="false">
+              <span class="emirate__media"><img src="assets/images/rulers/Fujairah-Ruler.jpg" alt="Official portrait of Sheikh Hamad bin Mohammed Al Sharqi" loading="lazy"></span>
+              <span class="emirate__body">
+                <span class="emirate__place">Fujairah</span>
+                <span class="emirate__name">Sheikh Hamad bin Mohammed Al Sharqi</span>
+                <span class="emirate__role">Member of the Supreme Council · Ruler of Fujairah</span>
+              </span>
+            </button>
+            <div class="emirate__detail" hidden>
+              <p>Became Ruler of Fujairah after his father's death in 1974. Born in 1948, he
+              served as a minister in the UAE's first Cabinet and as Crown Prince of Fujairah.</p>
+              <span class="emirate__more">Tap to close</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ THE FUTURE — A UNITED NATION ============ -->
+    <section class="section lead__union" aria-labelledby="union-title">
+      <div class="section__inner">
+        <div class="union reveal">
+          <div class="union__text">
+            <span class="section__num">The Future</span>
+            <h2 class="union__title" id="union-title">A United Nation</h2>
+            <p>Seven trunks, one root system. This tree is not a family tree — it is a picture of
+            a union deliberately built: seven rulers who chose federation over separation, and
+            generations who have kept that choice alive.</p>
+            <p>Every branch still reaches the same soil. The federation the founders planted in
+            1971 continues to grow — not because it was declared once, but because it is renewed
+            every day in the homes, schools and communities of all seven emirates.</p>
+            <p class="union__sign">— Beyond the Sands</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DESERT & SKYLINE BAND ============ -->
+    <div class="lead__horizon" aria-hidden="true">
+      <svg class="lead__skyline" viewBox="0 0 1440 120" preserveAspectRatio="xMidYMax slice">
+        <g fill="#6E4B2A" opacity="0.14">
+          <rect x="120" y="70" width="46" height="50"/>
+          <rect x="180" y="50" width="60" height="70"/>
+          <rect x="250" y="80" width="40" height="40"/>
+          <rect x="310" y="40" width="70" height="80"/>
+          <rect x="400" y="65" width="50" height="55"/>
+          <rect x="470" y="30" width="80" height="90"/>
+          <rect x="570" y="75" width="44" height="45"/>
+          <rect x="640" y="55" width="62" height="65"/>
+          <rect x="720" y="85" width="40" height="35"/>
+          <rect x="780" y="45" width="74" height="75"/>
+          <rect x="875" y="70" width="50" height="50"/>
+          <rect x="945" y="35" width="66" height="85"/>
+          <rect x="1030" y="80" width="42" height="40"/>
+          <rect x="1090" y="55" width="60" height="65"/>
+          <rect x="1165" y="75" width="46" height="45"/>
+          <rect x="1230" y="40" width="70" height="80"/>
+          <rect x="1320" y="70" width="48" height="50"/>
+        </g>
+        <rect x="0" y="118" width="1440" height="2" fill="#6E4B2A" opacity="0.2"/>
+      </svg>
+      <svg class="lead__dunes" viewBox="0 0 1440 90" preserveAspectRatio="none">
+        <path d="M0 55 C 240 20 480 80 720 55 C 960 30 1200 75 1440 50 L1440 90 L0 90 Z" fill="#E9DCC6"/>
+        <path d="M0 70 C 260 40 520 85 780 65 C 1040 45 1240 80 1440 62 L1440 90 L0 90 Z" fill="#DCCBA9" opacity="0.7"/>
+      </svg>
+    </div>
+
+    <!-- ============ SOURCES & REFERENCES ============ -->
+    <section class="section lead__sources" aria-labelledby="sources-title">
+      <div class="section__inner">
+        <div class="sources reveal">
+          <h2 class="sources__title" id="sources-title">Sources and References</h2>
+          <p class="sources__note">All names, titles and dates on this page are taken from official
+          UAE Government sources. Portraits are the official photographs published by the UAE
+          Government or the relevant emirate's official channels.</p>
+          <ul class="sources__list">
+            <li><a href="https://u.ae/en/about-the-uae/founders-of-the-union" target="_blank" rel="noopener">u.ae — Founders of the Union</a> <span>(founding rulers, union dates, founder portraits)</span></li>
+            <li><a href="https://u.ae/en/about-the-uae/the-uae-government/the-federal-supreme-council" target="_blank" rel="noopener">u.ae — The Federal Supreme Council</a> <span>(current rulers, titles, official portraits)</span></li>
+            <li><a href="https://u.ae/en/about-the-uae/history" target="_blank" rel="noopener">u.ae — History of the UAE</a> <span>(18 July 1971 resolution)</span></li>
+            <li><a href="https://u.ae/en/about-the-uae/the-uae-government/the-local-governments-of-the-seven-emirates" target="_blank" rel="noopener">u.ae — Local Governments of the Seven Emirates</a></li>
+            <li><a href="https://www.mediaoffice.ae/en/general-information/dubai-ruler" target="_blank" rel="noopener">Dubai Government Media Office — Dubai Ruler</a> <span>(MBR portrait)</span></li>
+            <li><a href="https://www.ajman.ae/en/happiness-bundle/emirate-ajman/ajman-ruler" target="_blank" rel="noopener">Ajman Government — Ajman Ruler</a> <span>(Humaid portrait)</span></li>
+            <li><a href="https://www.saudbinsaqr.ae" target="_blank" rel="noopener">Ras Al Khaimah Government — H.H. Sheikh Saud bin Saqr Al Qasimi</a> <span>(Saud bin Saqr portrait)</span></li>
+            <li><a href="https://sheikhdrsultan.ae/" target="_blank" rel="noopener">H.H. Sheikh Dr. Sultan bin Muhammad Al Qasimi — Official Website</a> <span>(poet and historian description)</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <p class="footer__title">Beyond the Sands</p>
+        <p class="footer__tag">A Story of Family, Heritage and Generations</p>
+        <p class="footer__note">An independent student project inspired by the UAE Year of Family 2026 —
+        <em>Growing in Unity</em>.</p>
+      </div>
+      <div class="footer__credits">
+        <p class="footer__heading">Photography and sources</p>
+        <ul>
+          <li>Leadership portraits: official UAE Government and emirate sources (see Sources above)</li>
+          <li>Story photography: <a href="https://uaeyearof.ae/en/2026" target="_blank" rel="noopener">uaeyearof.ae</a> — UAE Year Of / Moza's Journal (courtesy of the UAE Year Of initiative)</li>
+          <li>Facts and framework: <a href="https://u.ae/en/Year-of-family/Family-year-2026" target="_blank" rel="noopener">u.ae — Year of Family</a></li>
+        </ul>
+      </div>
+      <div class="footer__nav">
+        <a href="index.html">Home</a>
+        <a href="roots.html">Roots</a>
+        <a href="bonds.html">Bonds</a>
+        <a href="branches.html">Branches</a>
+        <a href="future.html">Future</a>
+        <a href="leadership.html">Leadership</a>
+      </div>
+    </div>
+    <p class="footer__copy">© 2026 Beyond the Sands · Made with respect for the families of the UAE</p>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V4m0 0l-6 6m6-6l6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
